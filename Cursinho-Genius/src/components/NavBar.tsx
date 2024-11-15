@@ -5,7 +5,7 @@ import Inicio from './Inicio';
 import Informacoes from './Informacoes';
 import Editar from './Editar';
 import Configuracoes from './Configuracoes';
-import Chamada from './Chamada/Chamada';
+// import Chamada from './Chamada/Chamada';
 
 const NavBar: React.FC = () => {
     const [selectedPage, setSelectedPage] = useState<string>('Ínicio');

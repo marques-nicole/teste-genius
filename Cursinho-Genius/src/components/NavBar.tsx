@@ -59,8 +59,8 @@ const NavBar: React.FC = () => {
                 </section>
             </aside>
             <main>
-                {/* {renderPage()} */}
-                <Chamada/>
+                {renderPage()}
+                {/* <Chamada/> */}
             </main>
         </div>
     );
